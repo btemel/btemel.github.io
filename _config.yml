@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Barış Temel"
-  avatar           : "foo-bar-identity.jpg"
+  avatar           : https://raw.githubusercontent.com/btemel/btemel.github.io/master/images/foto2.png
   bio              : "MS- Data Science \nBSc - Industrial Engineering \n Minor - Finance"
   location         : "Location"
   employer         :
