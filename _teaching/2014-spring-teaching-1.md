@@ -1,20 +1,21 @@
 ---
-title: "Teaching experience 1"
+title: "Teaching experience"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+permalink: /teaching/2020-spring-teaching-1
+venue: "Sabancı University"
+date: 2020-01-01
+location: "İstanbul, Turkey"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Working as an assistant for the introductory Python programming course IF 100 - Computational Approaches to Problem Solving
 
-Heading 1
+IF 100 Course Concepts
 ======
+*Computational Thinking
+*Sorting Networks
+*Pseudocode-Flowchart designs
+*Functions 
+*Libraries
+*OOP
 
-Heading 2
-======
-
-Heading 3
-======
