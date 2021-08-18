@@ -12,10 +12,10 @@ Working as an assistant for the introductory Python programming course IF 100 - 
 
 IF 100 Course Concepts
 ======
-*Computational Thinking
-*Sorting Networks
-*Pseudocode-Flowchart designs
-*Functions 
-*Libraries
-*OOP
+* Computational Thinking
+* Sorting Networks
+* Pseudocode-Flowchart designs
+* Functions 
+* Libraries
+* OOP
 
