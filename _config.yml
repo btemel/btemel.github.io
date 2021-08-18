@@ -11,9 +11,9 @@ title                    : "Barış Personal Page"
 title_separator          : "-"
 name                     : &name "Barış Temel"
 description              : &description "DS MSc Student in Sabanci University"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://btemel.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "btemel/btemel.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Barış Temel"
-  avatar           : https://raw.githubusercontent.com/btemel/btemel.github.io/master/images/foto2.png
+  avatar           : "foto2.png"
   bio              : "MS- Data Science \nBSc - Industrial Engineering \n Minor - Finance"
   location         : "Location"
   employer         :
