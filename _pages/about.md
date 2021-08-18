@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, this is my home on the web! I'm a graduate data science student at [Sabanci University](https://www.sabanciuniv.edu/). I'm interested in machine learning algorithms, computational social science and optimization. I'm working with [Onur Varol, Ph.D](http://www.onurvarol.com/) at [Viral Lab](http://varollab.com/). My current research focuses on understanding the relation between exercise and well-being using Twitter data.
+Hi, this is my home on the web! I'm a graduate data science student at [Sabanci University](https://www.sabanciuniv.edu/). I'm interested in machine learning algorithms, computational social science and optimization. I'm working with [Onur Varol, Ph.D](http://www.onurvarol.com/) at [Viral Lab](http://varollab.com/). My current research focuses on Detecting anomalous followers on social networks.
 
 I received my undergraduate degree in Industrial Engineering from Sabanci University. My graduation project aims to assess the costs and benefits of vehicle electrification in Istanbul. We plan to approach the problem from a Multicriteria Decision Analysis perspective with conducting literat ure survey, study global examples, interviews with relevant parties, data collection and analysis. (Sabancı University 17’)
 
