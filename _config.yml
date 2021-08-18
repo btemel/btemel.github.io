@@ -82,10 +82,7 @@ analytics:
 author:
   name             : "Barış Temel"
   avatar           : "foto2.png"
-  bio              : |
-                    MS- Data Science     
-                    BSc - Industrial Engineering      
-                    Minor - Finance
+  bio              : "MS- Data Science <br> BSc - Industrial Engineering <br> Minor - Finance"                                      
   location         : "Istanbul/Turkey"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
