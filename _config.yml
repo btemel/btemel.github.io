@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Barış Temel / MS"
+title                    : "Barış Personal Page"
 title_separator          : "-"
 name                     : &name "Barış Temel"
 description              : &description "Hi, I am Barış. I am a data scientist with great math skills."
