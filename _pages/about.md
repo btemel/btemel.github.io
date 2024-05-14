@@ -8,13 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-Hi, this is my home on the web! I'm a graduate data science student at [Sabanci University](https://www.sabanciuniv.edu/). I'm interested in machine learning algorithms, computational social science and optimization. I'm working with [Onur Varol, Ph.D](http://www.onurvarol.com/) at [Viral Lab](http://varollab.com/). My current research focuses on Detecting anomalous followers on social networks. 
+Hi, this is my home on the web! I'm a graduate data science student at [Sabanci University](https://www.sabanciuniv.edu/). I'm interested in machine learning algorithms, computational social science and optimization. I worked with [Onur Varol, Ph.D](http://www.onurvarol.com/) at [Viral Lab](http://varollab.com/). My thesis research focused on Detecting anomalous followers on social networks. Currently, I am working as a Data Scientist & Governance Analyst at the Coca-Cola Company.
 
 I received my undergraduate degree in Industrial Engineering from Sabanci University. My graduation project aims to assess the costs and benefits of vehicle electrification in Istanbul. We approach the problem from a Multicriteria Decision Analysis perspective with conducting literature survey, study global examples, interviews with relevant parties, data collection and analysis. (Sabancı University 17’)
 
-I worked as a Data Scientist for 10 months in REEF. I learned what a data scientist role can be in the food delivery sector. I also learned various skills while studying Masters in Data Science and writing my thesis. While studying my masters, I worked about Computer Vision Project which aims for generating 3D models using Sphere point clouds. I have experience on Pytorch and Keras for Deep Learning, Apache Spark for Big Data and I have a know-how to create a data pipeline from scratch. Currently I am writing my thesis which is about detecting anomalies in Social Media Platform using state of art machine learning models. 
+I worked as a Data Scientist for 10 months in REEF. I learned what a data scientist role can be in the food delivery sector. I also learned various skills while studying Masters in Data Science and writing my thesis. While studying my masters, I worked about Computer Vision Project which aims for generating 3D models using Sphere point clouds. I have experience on Pytorch and Keras for Deep Learning, Apache Spark for Big Data and I have a know-how to create a data pipeline from scratch. 
 
-I am currently learning new topics in Data Science. I am always excited to learn data related topics both for academic and real world problems.
+I am always in the path of learning new topics in Data Science. I am always excited to learn data related topics both for academic and real world problems.
 
 
 You can find the details about my work experience and projects on CV tab.
@@ -24,7 +24,8 @@ You can find the details about my work experience and projects on CV tab.
 * BSc in Industrial Engineering, Sabanci Universtiy, 2019
 
 # Research Interests 
-* Machine learning
+* Generative AI Use Cases & Applications
+* Deep learning Algorithms
 * Computer Vision
 * Computational Social Sciences
 * Optimization
