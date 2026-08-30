@@ -1,8 +1,11 @@
 # main links links
 main:
 
+  - title: "Atlantis"
+    url: https://main.d3eirtf0nt2mvj.amplifyapp.com
+
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/
                 
   - title: "CV"
     url: /files/Baris_Temel_Data_Science_Resume.pdf
