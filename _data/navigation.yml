@@ -4,11 +4,5 @@ main:
   - title: "Atlantis"
     url: https://atlantis.baristemel.com
 
-  - title: "Teaching"
-    url: /teaching/
-                
   - title: "CV"
     url: /files/Baris_Temel_Data_Science_Resume.pdf
-    
-  - title: "Guide"
-    url: /markdown/
