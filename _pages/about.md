@@ -10,6 +10,11 @@ redirect_from:
 
 <style>
 /* ===== Barış Temel — home page (scoped under .bt) ===== */
+/* Fill the academicpages content column on the home page:
+   the theme reserves a ~210px empty right gutter for an unused right sidebar. */
+.page{padding-right:0 !important;}
+.page__inner-wrap{float:none !important;width:auto !important;max-width:none !important;}
+
 .bt{
   --accent:#52adc8;        /* site link color */
   --accent-deep:#2b7c93;
@@ -21,6 +26,7 @@ redirect_from:
   --radius:14px;
   color:var(--ink);
   line-height:1.6;
+  max-width:940px;
   -webkit-font-smoothing:antialiased;
 }
 .bt *{box-sizing:border-box;}
@@ -116,8 +122,9 @@ redirect_from:
 
 /* Skills */
 .bt-skills{display:grid;gap:.7rem;}
-.bt-skillrow{display:flex;flex-wrap:wrap;align-items:baseline;gap:.4rem;}
-.bt-skillrow .lab{font-size:.8rem;font-weight:700;color:var(--muted);min-width:118px;text-transform:uppercase;letter-spacing:.05em;}
+.bt-skillrow{display:flex;align-items:baseline;gap:.6rem;}
+.bt-skillrow .lab{flex:0 0 118px;font-size:.8rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;}
+.bt-skillrow .chips{display:flex;flex-wrap:wrap;gap:.4rem;flex:1;min-width:0;}
 .bt-chip{
   font-size:.8rem;font-weight:600;color:#25555f;background:var(--soft);
   border:1px solid #d9e8ec;border-radius:999px;padding:.28rem .65rem;
@@ -151,7 +158,8 @@ redirect_from:
 @media (max-width:600px){
   .bt-grid,.bt-two{grid-template-columns:1fr;}
   .bt-hero h1{font-size:1.55rem;}
-  .bt-skillrow .lab{min-width:100%;}
+  .bt-skillrow{flex-wrap:wrap;}
+  .bt-skillrow .lab{flex-basis:100%;}
 }
 </style>
 
@@ -171,8 +179,6 @@ redirect_from:
   <div class="bt-cta">
     <a class="bt-btn bt-btn--primary" href="/files/Baris_Temel_Data_Science_Resume.pdf">📄 View CV</a>
     <a class="bt-btn bt-btn--ghost" href="https://atlantis.baristemel.com">🌊 Explore Atlantis</a>
-    <a class="bt-btn bt-btn--ghost" href="https://www.linkedin.com/in/baris-temel/">in LinkedIn</a>
-    <a class="bt-btn bt-btn--ghost" href="mailto:btemel@sabanciuniv.edu">✉ Email</a>
   </div>
 </section>
 
@@ -268,16 +274,16 @@ redirect_from:
   <h2>Skills &amp; tools</h2>
   <div class="bt-skills">
     <div class="bt-skillrow"><span class="lab">Languages</span>
-      <span class="bt-chip">Python</span><span class="bt-chip">SQL</span><span class="bt-chip">R</span>
+      <div class="chips"><span class="bt-chip">Python</span><span class="bt-chip">SQL</span><span class="bt-chip">R</span></div>
     </div>
     <div class="bt-skillrow"><span class="lab">ML / AI</span>
-      <span class="bt-chip">Machine Learning</span><span class="bt-chip">Deep Learning</span><span class="bt-chip">LLMs &amp; Agents</span><span class="bt-chip">Vector Search</span><span class="bt-chip">Prompt Engineering</span>
+      <div class="chips"><span class="bt-chip">Machine Learning</span><span class="bt-chip">Deep Learning</span><span class="bt-chip">LLMs &amp; Agents</span><span class="bt-chip">Vector Search</span><span class="bt-chip">Prompt Engineering</span></div>
     </div>
     <div class="bt-skillrow"><span class="lab">Data</span>
-      <span class="bt-chip">Big Data</span><span class="bt-chip">Data Management</span><span class="bt-chip">Data Governance</span>
+      <div class="chips"><span class="bt-chip">Big Data</span><span class="bt-chip">Data Management</span><span class="bt-chip">Data Governance</span></div>
     </div>
     <div class="bt-skillrow"><span class="lab">Tools</span>
-      <span class="bt-chip">Azure</span><span class="bt-chip">Power BI</span><span class="bt-chip">Tableau</span><span class="bt-chip">Docker</span><span class="bt-chip">Git</span><span class="bt-chip">Jira</span><span class="bt-chip">MS Copilot</span>
+      <div class="chips"><span class="bt-chip">Azure</span><span class="bt-chip">Power BI</span><span class="bt-chip">Tableau</span><span class="bt-chip">Docker</span><span class="bt-chip">Git</span><span class="bt-chip">Jira</span><span class="bt-chip">MS Copilot</span></div>
     </div>
   </div>
 </section>
