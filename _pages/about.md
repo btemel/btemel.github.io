@@ -266,6 +266,7 @@ redirect_from:
     <div class="bt-card">
       <div class="top"><h3>Follower Anomalies on Social Media</h3><span class="tag">MSc Thesis</span></div>
       <p>An open-source algorithm to detect anomalous followers on social networks, with Twitter as the primary target. Sabancı University, 2022.</p>
+      <a class="go" href="https://research.sabanciuniv.edu/id/eprint/47455/1/10452573.pdf" target="_blank" rel="noopener noreferrer">Read the thesis →</a>
     </div>
   </div>
 </section>
