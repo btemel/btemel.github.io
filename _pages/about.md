@@ -307,6 +307,7 @@ redirect_from:
     <div class="bt-cert">
       <h4>Certifications</h4>
       <ul>
+        <li>Microsoft Certified: Azure Fundamentals — Microsoft</li>
         <li>Certified Scrum Product Owner (CSPO) — Scrum Alliance</li>
         <li>Data Scientist — DataCamp</li>
         <li>AI Engineer for Data Scientists, Associate — DataCamp</li>
