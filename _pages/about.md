@@ -52,13 +52,14 @@ redirect_from:
 .bt-hero h1 .wave{display:inline-block;}
 .bt-role{font-size:1.02rem;font-weight:600;color:var(--accent-deep);margin:.1rem 0 .7rem;}
 .bt-lede{font-size:.98rem;color:var(--muted);margin:.2rem 0 1.1rem;max-width:60ch;}
-.bt-stats{display:flex;flex-wrap:wrap;gap:.5rem;margin:.2rem 0 1.15rem;}
+.bt-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.6rem;margin:.2rem 0 1.15rem;}
 .bt-stat{
   background:#fff;border:1px solid var(--line);border-radius:10px;
-  padding:.5rem .75rem;min-width:0;
+  padding:.7rem .85rem;min-width:0;min-height:78px;
+  display:flex;flex-direction:column;justify-content:center;
 }
-.bt-stat b{display:block;font-size:1.2rem;line-height:1;color:var(--accent-deep);font-weight:800;}
-.bt-stat span{font-size:.72rem;color:var(--muted);letter-spacing:.02em;}
+.bt-stat b{font-size:1.35rem;line-height:1.1;color:var(--accent-deep);font-weight:800;margin-bottom:.28rem;}
+.bt-stat span{font-size:.72rem;color:var(--muted);letter-spacing:.02em;line-height:1.3;}
 .bt-cta{display:flex;flex-wrap:wrap;gap:.55rem;}
 .bt-btn{
   display:inline-flex;align-items:center;gap:.4rem;font-size:.86rem;font-weight:600;
@@ -157,6 +158,7 @@ redirect_from:
 
 @media (max-width:600px){
   .bt-grid,.bt-two{grid-template-columns:1fr;}
+  .bt-stats{grid-template-columns:repeat(2,1fr);}
   .bt-hero h1{font-size:1.55rem;}
   .bt-skillrow{flex-wrap:wrap;}
   .bt-skillrow .lab{flex-basis:100%;}
