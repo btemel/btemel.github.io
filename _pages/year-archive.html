@@ -1,9 +1,10 @@
 ---
 layout: archive
-permalink: /year-archive/
-title: "Blog posts"
+permalink: /blog/
+title: "Blog"
 author_profile: true
 redirect_from:
+  - /year-archive/
   - /wordpress/blog-posts/
 ---
 
@@ -15,5 +16,14 @@ redirect_from:
     <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
-  {% include archive-single.html %}
+  <div class="list__item">
+    <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+      <h3 class="archive__item-title" itemprop="headline" style="margin-bottom: 0.25em;">
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+      </h3>
+      {% if post.date %}
+        <p class="page__meta" style="margin-top: 0;"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></p>
+      {% endif %}
+    </article>
+  </div>
 {% endfor %}
