@@ -1,2 +1,13 @@
+# Jekyll build output & caches
 _site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
 
+# Bundler / local Ruby gems (GitHub Pages ignores Gemfile.lock and builds with its own versions)
+Gemfile.lock
+.bundle/
+vendor/
+
+# OS / editor cruft
+.DS_Store
